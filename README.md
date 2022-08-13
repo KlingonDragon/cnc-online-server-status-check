@@ -1,0 +1,1 @@
+Quickly check the server status for C&C:Online ([cnc-online.net](https://cnc-online.net/))
