@@ -6,6 +6,7 @@ def pause():
     else:
         input('Press enter to continue...')
 def check_server():
+    print('############################\n# C&C:Online Server Status #\n############################')
     try:
         for game,data in requests.get('https://info.server.cnc-online.net/').json().items():
             try:
