@@ -12,7 +12,7 @@ def check_server():
             try:
                 user_count = len(data['users'])
                 if user_count:
-                    print('{}{}{:0>3} online'.format(game, (2 - (len(game) // 8)) * '\t', user_count))
+                    print('{}{}{:0>3} online'.format(game, (18 - len(game)) * ' ', user_count))
             except:
                 pass
     except:
